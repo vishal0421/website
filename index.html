@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Rich Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Design Rich Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Our Creative World</h2>
+            <p>Explore, Discover, and Create with us.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="grid">
+                <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.XQ6CyncXgEdljRssh_LAIwHaEK&pid=Api&P=0&h=180" alt="Gallery Image 1"></div>
+                <div class="grid-item"><img src="https://tse3.mm.bing.net/th?id=OIP.OmszxJcT8NO06xdukAihmwHaE7&pid=Api&P=0&h=180" alt="Gallery Image 2"></div></div>
+                <div class="grid-item"><img src="https://tse1.mm.bing.net/th?id=OIP.JvgjTb4bC_6EIICyoQN1cgHaEK&pid=Api&P=0&h=180" alt="Gallery Image 3"></div>
+                <div class="grid-item"><img src="https://tse1.mm.bing.net/th?id=OIP.Ddrn76R4x07_V3ZKJNbtywHaEK&pid=Api&P=0&h=180" alt="Gallery Image 4"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="video">
+        <div class="container">
+            <h2>Featured Video</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet velit nec justo dictum, nec bibendum lorem vehicula.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Design Rich Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
